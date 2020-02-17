@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import './SongDetails.css'
 
 const SongDetail = ({ song }) => {
   if (!song) {
@@ -8,11 +9,12 @@ const SongDetail = ({ song }) => {
 
   return (
 
-  <div>
-    <h3>Details: </h3>
+  <div className="song-details">
     <p>Title: {song.title}
-    <br/>
-      Duraction: {song.duration}
+      <br/>
+      Artist: {song.artist}
+      <br/>
+      Duration: {song.duration}
     </p>
   </div>
   );

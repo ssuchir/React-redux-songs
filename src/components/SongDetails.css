@@ -1,0 +1,11 @@
+/* .background {
+  background-image: url(../public/background.jpg);
+} */
+
+.song-details {
+  display: flex !important;
+  align-items: center !important;
+  padding-top: 300px;
+  padding-left: 20px;
+  font-size: large;
+}
